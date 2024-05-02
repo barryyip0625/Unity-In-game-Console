@@ -1,5 +1,7 @@
 <h1 align="center">Unity-In-game-Console</h1>
 
+<img src"https://drive.google.com/file/d/1KwQRMqcYejMnAq87MeAFxi6nG2xeBAxV/view?usp=sharing">
+
 ## Links
 - <img src="https://cdn-icons-png.flaticon.com/512/5969/5969346.png" width="18px"> **Asset Store:** [Coming Soon](https://github.com/barryyip0625/Unity-In-game-Console)
 - <a href="https://discord.gg/VRZXNwujt8"><img src="https://static-00.iconduck.com/assets.00/discord-icon-2048x2048-o5mluhz2.png" width="18px"></a> **Discord:** https://discord.gg/VRZXNwujt8
@@ -14,6 +16,8 @@
 6. **[Sponsor](#sponsor)**
 
 ## About
+
+This asset will log all debug messages(including logs, warnings, errors, and exceptions) during runtime in a build. 
 
 ## Installation
 
