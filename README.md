@@ -1,6 +1,6 @@
-<h1 align="center">Unity-In-game-Console</h1>
+# Unity-In-game-Console
 
-<img src="https://drive.google.com/file/d/1KwQRMqcYejMnAq87MeAFxi6nG2xeBAxV/view?usp=sharing">
+<img src="https://i.ibb.co/WHH6KGR/2024-05-02-144345.png">
 
 ## Links
 - <img src="https://cdn-icons-png.flaticon.com/512/5969/5969346.png" width="18px"> **Asset Store:** [Coming Soon](https://github.com/barryyip0625/Unity-In-game-Console)
@@ -19,9 +19,29 @@
 
 This asset will log all debug messages(including logs, warnings, errors, and exceptions) during runtime in a build. 
 
+You can show/hide specific types of debug messages through those buttons.
+
+<img src="https://i.ibb.co/D5crpTt/2024-05-02-144910.png">
+
 ## Installation
 
+- Download the latest release
+- Import from [Asset Store](https://assetstore.unity.com/)
+- Import via Package Manager
+  - ```https://github.com/barryyip0625/Unity-In-game-Console.git```
+  
 ## How to use
+
+Place the **Console** prefab in your scene. You can configure the settings according to your needs.
+
+- Custom Shortcut
+
+<img src="https://i.ibb.co/B3XWD8X/2024-05-02-145943.png" alt="2024-05-02-145943">
+
+- Custom UIs
+
+- Custom Color
+  
 
 ## FAQ
 
