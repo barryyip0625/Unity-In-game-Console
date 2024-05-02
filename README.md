@@ -22,4 +22,4 @@
 
 ## License
 
-This asset is licensed under [MIT license](https://github.com/barryyip0625/Unity-In-game-Console/blob/main/LICENSE.md).
+This asset is licensed under [MIT license](https://github.com/barryyip0625/Unity-In-game-Console?tab=MIT-1-ov-file).
