@@ -1,7 +1,5 @@
 # Unity-In-game-Console
 
----
-
 ## Links
 
 - **Discord:** https://discord.gg/VRZXNwujt8
@@ -14,25 +12,17 @@
 4. **[FAQ](#faq)**
 5. **[License](#license)**
 
+---
 
 ## About
 
----
-
 ## Installation
-
----
 
 ## How to use
 
----
-
 ## FAQ
-
----
 
 ## License
 
----
 
 This asset is licensed under [MIT license](https://github.com/barryyip0625/Unity-In-game-Console/blob/main/LICENSE.md).
