@@ -224,7 +224,6 @@ public class UnityInGameConsole : MonoBehaviour
         public KeyCode shortCut = KeyCode.BackQuote;
         public bool showFunctionsBar = true;
         public bool showInputField = true;
-        public bool showSubmitButton = true;
         public bool isFullScreen = false;
     }
 
