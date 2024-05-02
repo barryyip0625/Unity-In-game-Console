@@ -2,9 +2,8 @@
     "name": "com.barryy.unityingameconsole",
     "displayName": "Unity In-game Console",
     "version": "1.0.0",
-    "documentationUrl": "",
-    "changelogUrl": "",
-    "licensesUrl": "",
     "description": "",
-    "hideInEditor": false
+    "dependencies": {
+      "com.unity.textmeshpro": "3.0.8"
+    }
   }
