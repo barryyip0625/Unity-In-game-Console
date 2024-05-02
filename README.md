@@ -2,7 +2,7 @@
 
 ## Links
 
-- <a href="https://discord.gg/VRZXNwujt8"><img src="https://static-00.iconduck.com/assets.00/discord-icon-2048x2048-o5mluhz2.png" width="18px"></a> **Discord:** https://discord.gg/VRZXNwujt8
+- <a href="https://discord.gg/VRZXNwujt8" target="_blank"><img src="https://static-00.iconduck.com/assets.00/discord-icon-2048x2048-o5mluhz2.png" width="18px"></a> **Discord:** https://discord.gg/VRZXNwujt8
 
 ## Table of contents
 
