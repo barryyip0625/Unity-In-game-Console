@@ -36,6 +36,7 @@ This asset will log all debug messages(including logs, warnings, errors, and exc
 - Open in-game console by shortcut
 
 **Size**:
+
 Minimum Size: 475*100
 
 Maximum Size: Device Screen Size
