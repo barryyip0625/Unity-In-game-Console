@@ -20,11 +20,22 @@
 This asset will log all debug messages(including logs, warnings, errors, and exceptions) during runtime in a build. 
 
 Functions:
+
+- Custom Command
+
+- Copy message from in-game console
+
 - Show/hide specific types of debug messages <img src="https://i.ibb.co/D5crpTt/2024-05-02-144910.png">
 
 - Fullscreen Mode
   
 - Open console by shortcut
+
+- Custom Font size
+
+Minimum Size: 475*100
+
+Maximum Size: Device Screen Size
 
 ## Installation
 
