@@ -1,2 +1,15 @@
 fileFormatVersion: 2
 guid: 33b965b5637949d4a90c4137a50023ad
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - holder: {instanceID: 0}
+  - scrollViewContent: {instanceID: 0}
+  - textPrefab: {fileID: 1043083909071251059, guid: c7669e194f643694f91cefca5ce0269a,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
