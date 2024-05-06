@@ -72,8 +72,6 @@ namespace BarryY.InGameConsole{
             logTypeObjects[LogType.Log] = new List<GameObject>();
             logTypeObjects[LogType.Warning] = new List<GameObject>();
             logTypeObjects[LogType.Error] = new List<GameObject>();
-
-            AddDefaultCommands();
         }
 
         private void OnEnable(){
@@ -88,6 +86,10 @@ namespace BarryY.InGameConsole{
             if(Input.GetKeyDown(displaySetting.shortCut)){
                 holder.gameObject.SetActive(!holder.gameObject.activeSelf); 
             }
+        }
+
+        private void OnDestroy() {
+            Application.logMessageReceived -= LogToConsoleUI;
         }
 
         public void SendMessage(TMP_InputField inputField){
@@ -185,7 +187,7 @@ namespace BarryY.InGameConsole{
         }
     #endregion
 
-    #region Settings
+    #region Settings & Functions
         private void ApplySetting(){
             LoadComponents();
             UpdatePanelVisible();
@@ -340,6 +342,15 @@ namespace BarryY.InGameConsole{
             commandsDescription.Add(command, description);
         }
 
+        private static void RemoveCommand(string command) {
+            commands.Remove(command);
+            commandsDescription.Remove(command);
+        }
+
+        public static Dictionary<string, string> GetCommandsDescription(){
+            return commandsDescription;
+        }
+
         private void ProcessCommand(string input){
             string[] inputSplit = input.Split(' ');
             string command = inputSplit[0];
@@ -348,56 +359,6 @@ namespace BarryY.InGameConsole{
             if (commands.ContainsKey(command)){
                 commands[command].Invoke(args);
             }
-        }
-
-        private void AddDefaultCommands(){
-            AddCommand("help", Help, "List Command List");
-            AddCommand("test", Test, "Command for testing");
-            AddCommand("clear", Clear, "Clear ingame console debugs messages");
-        }
-
-        // Default Commands
-        // -- Command /help: List Command List
-        private void Help(string[] arg){
-            Debug.Log("Command List:");
-            foreach(string command in commandsDescription.Keys){
-                Debug.Log($"/{command} - {commandsDescription[command]}");
-            }
-        }
-
-        // -- Command /test: testing custom command function
-        private void Test(string[] arg){
-            Debug.Log("Testing");
-        }
-
-        // -- Command /clear: clear ingame console debugs messages
-        private void Clear(string[] arg){
-            ClearConsole();
-        }
-
-    #endregion
-
-    #region Collapsible Variables Classes
-        [Serializable]
-        public class DisplaySetting{
-            public float defaultFontSize = 24;
-            public KeyCode shortCut = KeyCode.BackQuote;
-            public bool showFunctionsBar = true;
-            public bool showInputField = true;
-            public bool isFullScreen = false;
-        }
-
-        [Serializable]
-        public class ColorSetting{
-            public Color activeLogButtonColor = new Color(128,128,128,255);
-            public Color inactiveLogButtonColor = new Color(85,85,85,255);
-            public Color consoleBackgroundColor = new Color(0,0,0,230);
-            public Color consoleButtonIconColor = new Color(255,255,255,255);
-            public Color consoleInputFieldTextColor = new Color(255,255,255,255);
-            public Color normalLogColor = new Color(255,255,255,255);
-            public Color warningLogColor = new Color(255,193,0,255);
-            public Color errorLogColor = new Color(255,0,0,255);
-            public Color logHighlightColor = new Color(94, 94, 94, 255);
         }
     #endregion
     }
