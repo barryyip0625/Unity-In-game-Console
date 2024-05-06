@@ -7,6 +7,8 @@
 ## Links
 - <img src="https://cdn-icons-png.flaticon.com/512/5969/5969346.png" width="18px"> **Asset Store:** [Coming Soon](https://github.com/barryyip0625/Unity-In-game-Console)
 - <a href="https://discord.gg/VRZXNwujt8"><img src="https://static-00.iconduck.com/assets.00/discord-icon-2048x2048-o5mluhz2.png" width="18px"></a> **Discord:** https://discord.gg/VRZXNwujt8
+- <a href="https://trello.com/b/98eGoUPJ/unity-in-game-console"><img src="https://cdn-icons-png.flaticon.com/512/2504/2504834.png" width="18px"></a> **Trello:** https://trello.com/b/98eGoUPJ/unity-in-game-console
+  
 
 ## Table of contents
 
