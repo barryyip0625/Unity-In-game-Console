@@ -1,6 +1,6 @@
 # Unity-In-game-Console
 
-<img src="https://i.ibb.co/WHH6KGR/2024-05-02-144345.png">
+<img src="https://i.ibb.co/K76HZXQ/2024-05-06-131116.png" width="600" height="269"/>
 
 ## Links
 - <img src="https://cdn-icons-png.flaticon.com/512/5969/5969346.png" width="18px"> **Asset Store:** [Coming Soon](https://github.com/barryyip0625/Unity-In-game-Console)
@@ -23,13 +23,17 @@ This asset will log all debug messages(including logs, warnings, errors, and exc
 
 - Show debug messages
 
+- Add & Execute custom commands
+
 - Copy message from in-game console
+
+<img src="https://i.ibb.co/L1rqqk9/copy-Message.gif" alt="Responsive UI"/>
 
 - Show/hide specific types of debug messages
 
-- Add & Execute custom commands
-
 - Fullscreen mode
+
+<img src="https://i.ibb.co/vL6KZqS/fullscreen.gif" alt="Responsive UI" width="640" height="360"/>
 
 - Responsive UI
   
