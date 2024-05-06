@@ -1,6 +1,6 @@
 # Unity-In-game-Console
 
-<img src="https://i.ibb.co/K76HZXQ/2024-05-06-131116.png" alt="Console"/>
+<img src="https://i.postimg.cc/VNqzJ2zq/2024-05-06-131116.png" alt="Console"/>
 
 ## Links
 - <img src="https://cdn-icons-png.flaticon.com/512/5969/5969346.png" width="18px"> **Asset Store:** [Coming Soon](https://github.com/barryyip0625/Unity-In-game-Console)
@@ -11,13 +11,13 @@
 1. **[About](#about)**
 2. **[Installation](#installation)**
 3. **[How to use](#how-to-use)**
-4. **[FAQ](#faq)**
-5. **[License](#license)**
-6. **[Support Me](#support-me)**
+4. **[License](#license)**
+5. **[Support Me](#support-me)**
 
 ## About
 
-This asset will log all debug messages(including logs, warnings, errors, and exceptions) during runtime in a build. 
+This asset will log debug messages(including logs, warnings, errors, and exceptions) during runtime in a build.
+It also allows users to add custom commands to execute some functions during runtime.
 
 **Functions**:
 
@@ -25,19 +25,27 @@ This asset will log all debug messages(including logs, warnings, errors, and exc
 
 - Add & Execute custom commands
 
+<img src="https://i.ibb.co/52RZYpr/Execute-custom-commands.gif" alt="Execute custom commands" width="640" height="360"/>
+
 - Copy message from in-game console
 
-<img src="https://i.ibb.co/L1rqqk9/copy-Message.gif" alt="Responsive UI"/>
+<img src="https://i.ibb.co/L1rqqk9/copy-Message.gif" alt="Copy Message" width="640" height="360"/>
 
 - Show/hide specific types of debug messages
 
+<img src="https://i.postimg.cc/8CSSgwLj/Show-or-hide-messages.gif" alt="Show or hide Messages" width="640" height="360"/>
+
 - Fullscreen mode
 
-<img src="https://i.ibb.co/vL6KZqS/fullscreen.gif" alt="Responsive UI" width="640" height="360"/>
+<img src="https://i.ibb.co/vL6KZqS/fullscreen.gif" alt="Fullscreen Mode" width="640" height="360"/>
 
 - Responsive UI
   
 <img src="https://i.ibb.co/r3mpnBL/rescaling.gif" alt="Responsive UI" width="640" height="360"/>
+
+- Change Font Size
+
+<img src="https://i.ibb.co/kXQwPcC/Change-Font-Size.gif" alt="Change Font Size" width="640" height="360"/>
 
 - Open in-game console by shortcut
 
@@ -59,13 +67,11 @@ Maximum Size: Device Screen Size
 Place the **Console** prefab in your scene. You can configure the settings according to your needs.
 
 - Custom Shortcut
-<img src="https://i.ibb.co/B3XWD8X/2024-05-02-145943.png" alt="2024-05-02-145943">
+<img src="https://i.ibb.co/B3XWD8X/2024-05-02-145943.png" alt="Custom Shortcut">
 
 - Custom UIs & Color
 
-  
-
-## FAQ
+<img src="https://i.postimg.cc/q7xdJnGQ/2024-05-06-133255.png" alt="Custom UIs and Color">
 
 ## License
 
