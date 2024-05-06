@@ -60,7 +60,9 @@ Maximum Size: Device Screen Size
 ## Installation
 
 - Download the latest release
-- Import from [Asset Store](https://assetstore.unity.com/)
+- via [OpenUPM](https://openupm.com/) and install openupm-cli
+  
+  Run ```openupm add com.barryy.unityingameconsole```
   
 ## How to use
 
