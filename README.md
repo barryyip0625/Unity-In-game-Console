@@ -1,6 +1,6 @@
 # Unity-In-game-Console
 
-<img src="https://i.ibb.co/K76HZXQ/2024-05-06-131116.png" width="600" height="269"/>
+<img src="https://i.ibb.co/K76HZXQ/2024-05-06-131116.png" alt="Console"/>
 
 ## Links
 - <img src="https://cdn-icons-png.flaticon.com/512/5969/5969346.png" width="18px"> **Asset Store:** [Coming Soon](https://github.com/barryyip0625/Unity-In-game-Console)
