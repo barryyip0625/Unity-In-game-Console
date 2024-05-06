@@ -27,7 +27,7 @@ It also allows users to add custom commands to execute some functions during run
 
 <img src="https://i.ibb.co/52RZYpr/Execute-custom-commands.gif" alt="Execute custom commands" width="640" height="360"/>
 
-- Copy message from in-game console
+- Copy message from in-game console (Not Work in WebGL Build now, will be added in future)
 
 <img src="https://i.ibb.co/L1rqqk9/copy-Message.gif" alt="Copy Message" width="640" height="360"/>
 

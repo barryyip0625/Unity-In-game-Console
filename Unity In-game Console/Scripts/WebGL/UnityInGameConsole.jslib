@@ -4,7 +4,7 @@ mergeInto( LibraryManager.library,
         if(navigator.clipboard){
 			navigator.clipboard.writeText( str ).then( function() { }, function( err )
 			{
-			    onsole.error( "Couldn't copy text by using clipboard.writeText: ", err );
+			    console.error( "Couldn't copy text by using clipboard.writeText: ", err );
 			});
 		}
         else{

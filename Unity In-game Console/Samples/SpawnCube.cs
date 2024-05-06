@@ -24,7 +24,7 @@ public class SpawnCube : MonoBehaviour
             float.Parse(arg[1]),
             float.Parse(arg[2])
         );
-
+        
         Instantiate(cubePrefab, position, Quaternion.identity);
     }
 }

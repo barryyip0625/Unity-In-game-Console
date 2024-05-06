@@ -63,9 +63,7 @@ namespace BarryY.InGameConsole{
 
             _Instance = this;
 
-            defaultSize = GetComponent<RectTransform>().sizeDelta;
-            if(defaultSize.x < 475) defaultSize.x = 475;
-            if(defaultSize.y < 100) defaultSize.y = 100;
+            defaultSize = GetComponent<RectTransform>().sizeDelta * 0.5f;
 
             fontSize = displaySetting.defaultFontSize;
             
@@ -250,10 +248,12 @@ namespace BarryY.InGameConsole{
 
         private void SetSize(){
             if(displaySetting.isFullScreen){
-                GetComponent<RectTransform>().sizeDelta = new Vector2(Screen.width, Screen.height);
+                GetComponent<RectTransform>().offsetMin = Vector2.zero;
+                GetComponent<RectTransform>().offsetMax = Vector2.zero;
             }
             else{
-                GetComponent<RectTransform>().sizeDelta = defaultSize;
+                GetComponent<RectTransform>().offsetMin = -defaultSize;
+                GetComponent<RectTransform>().offsetMax = defaultSize;
             }
         }
 
