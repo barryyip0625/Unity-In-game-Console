@@ -21,7 +21,7 @@ This asset will log all debug messages(including logs, warnings, errors, and exc
 
 **Functions**:
 
-- Read debug messages
+- Show debug messages
 
 - Copy message from in-game console
 
@@ -31,7 +31,9 @@ This asset will log all debug messages(including logs, warnings, errors, and exc
 
 - Fullscreen mode
 
-- Responsive UIs size
+- Responsive UI size
+  
+<img src="https://i.ibb.co/T1k0zQn/rescaling.gif" alt="rescaling">
 
 - Open in-game console by shortcut
 
@@ -53,12 +55,10 @@ Maximum Size: Device Screen Size
 Place the **Console** prefab in your scene. You can configure the settings according to your needs.
 
 - Custom Shortcut
-
 <img src="https://i.ibb.co/B3XWD8X/2024-05-02-145943.png" alt="2024-05-02-145943">
 
-- Custom UIs
+- Custom UIs & Color
 
-- Custom Color
   
 
 ## FAQ
