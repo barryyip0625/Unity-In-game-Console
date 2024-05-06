@@ -64,6 +64,51 @@ Maximum Size: Device Screen Size
 
 Place the **Console** prefab in your scene. You can configure the settings according to your needs.
 
+- Add Custom Commands
+
+  1. Add ``using BarryY.InGameConsole;``
+  2. Create a new function with parameter(string[] arg)
+  3. Add ``UnityInGameConsole.AddCommand("Commands Name", FUNCTION_NAME, "Description")`` into Start();
+ 
+*Remark: Parse the arg[] into the type you need*
+
+*For more information, you can check the **DefaultCommands.cs**.*
+
+Example:
+```
+using UnityEngine;
+using UnityEngine.Scripting;
+using BarryY.InGameConsole;
+
+public class SpawnCube : MonoBehaviour
+{
+    public GameObject cubePrefab;
+
+    private void Start(){
+        UnityInGameConsole.AddCommand("spawnCube", SpawnNewCube, "Spawn a cube in scene world space  \n    usage: /spawnCube [x] [y] [z]");
+    }
+
+    [Preserve]
+    private void SpawnNewCube(string[] arg){
+        //arg should contain the value of x,y,z
+        if(arg.Length < 3){
+            Debug.LogWarning("Missing parameter(s) in /spawnCube function");
+            return;
+        }
+
+        // Parse parameters to Vector3
+        Vector3 position = new Vector3(
+            float.Parse(arg[0]),
+            float.Parse(arg[1]),
+            float.Parse(arg[2])
+        );
+        
+        Instantiate(cubePrefab, position, Quaternion.identity);
+    }
+}
+```
+  
+
 - Custom Shortcut
 <img src="https://i.ibb.co/B3XWD8X/2024-05-02-145943.png" alt="Custom Shortcut">
 
