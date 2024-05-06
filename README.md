@@ -31,9 +31,9 @@ This asset will log all debug messages(including logs, warnings, errors, and exc
 
 - Fullscreen mode
 
-- Responsive UI size
+- Responsive UI
   
-<img src="https://i.ibb.co/T1k0zQn/rescaling.gif" alt="rescaling">
+<img src="https://i.ibb.co/r3mpnBL/rescaling.gif" alt="Responsive UI" width="640" height="360"/>
 
 - Open in-game console by shortcut
 
