@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Scripting;
 using BarryY.InGameConsole;
@@ -9,14 +7,14 @@ public class SpawnCube : MonoBehaviour
     public GameObject cubePrefab;
 
     private void Start(){
-        UnityInGameConsole.AddCommand("spawnCube", SpawnNewCube, "Spawn a cube in scene world space");
+        UnityInGameConsole.AddCommand("spawnCube", SpawnNewCube, "Spawn a cube in scene world space  \n    usage: /spawnCube [x] [y] [z]");
     }
 
     [Preserve]
     private void SpawnNewCube(string[] arg){
         //arg should contain the value of x,y,z
         if(arg.Length < 3){
-            Debug.LogWarning("Missing parameter(s) in spawnCube function");
+            Debug.LogWarning("Missing parameter(s) in /spawnCube function");
             return;
         }
 
