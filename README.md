@@ -59,8 +59,6 @@ Maximum Size: Device Screen Size
 
 - Download the latest release
 - Import from [Asset Store](https://assetstore.unity.com/)
-- Import via Package Manager
-  - ```https://github.com/barryyip0625/Unity-In-game-Console.git```
   
 ## How to use
 
