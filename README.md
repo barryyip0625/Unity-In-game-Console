@@ -1,4 +1,4 @@
-# Unity-In-game-Console
+# Unity In-game Console
 
 <img src="https://i.postimg.cc/VNqzJ2zq/2024-05-06-131116.png" alt="Console"/>
 
