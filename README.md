@@ -1,5 +1,7 @@
 # Unity In-game Console
 
+[![openupm](https://img.shields.io/npm/v/com.barryy.unityingameconsole?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.barryy.unityingameconsole/)
+
 <img src="https://i.postimg.cc/VNqzJ2zq/2024-05-06-131116.png" alt="Console"/>
 
 ## Links
